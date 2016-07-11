@@ -4,9 +4,9 @@
 
   angular
     .module('africaApp')
-    .directive('header', header);
+    .directive('mainnav', mainnav);
 
-  function header() {
+  function mainnav() {
     return {
       restrict: 'E',
       templateUrl: 'components/header/header.view.html',
