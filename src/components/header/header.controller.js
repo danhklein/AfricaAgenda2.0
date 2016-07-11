@@ -10,6 +10,7 @@
 
   function HeaderCtrl() {
     var vm = this;
+    
   }
 
 })();
