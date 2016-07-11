@@ -1,1 +1,21 @@
-<h1>Hello Africa!!!</h1>
+<header>
+  <h1 class="org-name">True Africa</h1>
+  <span ng-click="vm.toggle(vm.hidden)" class="expand-menu">Menu</span>
+  <nav>
+    <a class="no-hover-effect">Filter Articles By: </a>
+    <a href="#">Country</a>
+    <a href="#">Author</a>
+    <a href="#">Something</a>
+    <a href="#">Illinois</a>
+  </nav>
+</header>
+<div ng-show="!vm.hidden" class="large-menu">
+  <div class="nav-links">
+    <a href="#">About</a>
+    <a href="#">Events</a>
+    <a href="#">Donate</a>
+    <a href="#">Privacy Policy</a>
+    <a href="#">Writer Login</a>
+  </div>
+</div>
+

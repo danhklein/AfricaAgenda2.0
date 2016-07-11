@@ -1,0 +1,47 @@
+
+header {
+  background-color: black;
+  color: white;
+  border-bottom: 2px solid white; }
+  header h1, header nav {
+    display: inline-block; }
+  header h1 {
+    padding: 0 20px; }
+  header span {
+    border-right: 1px solid white;
+    border-left: 1px solid white;
+    padding: 10px 10px 0 10px;
+    font-size: 1.25rem; }
+    header span:hover {
+      cursor: pointer;
+      border: 1px solid white; }
+  header nav {
+    float: right;
+    margin-top: 25px;
+    margin-right: 10px; }
+    header nav a {
+      text-decoration: none;
+      color: white;
+      font-size: 1.25rem;
+      padding: 0 10px; }
+      header nav a:hover {
+        text-decoration: underline; }
+    header nav .no-hover-effect:hover {
+      text-decoration: none; }
+
+.large-menu {
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  background-color: black;
+  color: white; }
+  .large-menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 2rem;
+    display: block;
+    text-align: center;
+    padding: 10px; }
+  .large-menu .nav-links {
+    margin-top: 10vh; }
+

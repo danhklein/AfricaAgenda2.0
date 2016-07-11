@@ -10,7 +10,13 @@
 
   function HeaderCtrl() {
     var vm = this;
-    
+
+    vm.hidden = true;
+
+    vm.toggle = function() {
+      vm.hidden = !vm.hidden;
+    }
+
   }
 
 })();
