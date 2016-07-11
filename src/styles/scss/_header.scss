@@ -1,0 +1,63 @@
+header {
+  background-color: black;
+  color: white;
+  border-bottom: 2px solid white;
+  h1, nav {
+    display: inline-block;
+  }
+
+  h1 {
+    padding: 0 20px;
+  }
+
+  span {
+    border-right: 1px solid white;
+    border-left: 1px solid white;
+    padding: 10px 10px 0 10px;
+    font-size: 1.25rem;
+
+    &:hover {
+      cursor: pointer;
+      border: 1px solid white;
+    }
+  }
+
+  nav {
+    float: right;
+    margin-top: 25px;
+    margin-right: 10px;
+    a {
+      text-decoration: none;
+      color: white;
+      font-size: 1.25rem;
+      padding: 0 10px;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+    .no-hover-effect:hover {
+        text-decoration: none;
+      }
+  }
+}
+
+.large-menu {
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  background-color: black;
+  color: white;
+  a {
+    color: white;
+    text-decoration: none;
+    font-size: 2rem;
+    display: block;
+    text-align: center;
+    padding: 10px;
+  }
+  .nav-links {
+    margin-top: 10vh;
+  }
+}
+
