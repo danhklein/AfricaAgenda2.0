@@ -11,7 +11,7 @@
   function appConfig($routeProvider) {
     $routeProvider
       .when('/', {
-        template: '<header></header>'
+        template: '<mainnav></mainnav>'
       })
       .otherwise({redirectTo: '/'});
   }
