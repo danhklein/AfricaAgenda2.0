@@ -6,7 +6,7 @@
         .module('africaApp')
         .controller('singlePostCtrl', singlePostCtrl);
 
-    HeaderCtrl.$inject = [];
+    singlePostCtrl.$inject = [];
 
     function singlePostCtrl() {
         var vm = this;

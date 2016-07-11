@@ -6,7 +6,7 @@
     .module('africaApp')
     .controller('LandingCtrl', LandingCtrl);
 
-  HeaderCtrl.$inject = [];
+  LandingCtrl.$inject = [];
 
   function LandingCtrl() {
     var vm = this;
