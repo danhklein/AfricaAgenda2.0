@@ -1,20 +1,16 @@
 <!DOCTYPE html>
-<html lang="en" ng-app='myApp'>
+<html lang="en" ng-app='africaApp'>
   <head>
     <meta charset="utf-8">
-    <title>Untitled</title>
+    <title>Truth Africa</title>
 
     <link rel="stylesheet" type="text/css" href="http://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css">
 
-    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="styles/css/main.css">
   </head>
   <body ng-cloak>
-    <!-- sample angular code -->
-    <div class="container">
-      <div ng-controller="myController">
-        <p>{{ greeting }}</p>
-      </div>
-    </div>
+
+      <div ng-view></div>
 
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.10/angular.min.js"></script>
 
@@ -27,6 +23,10 @@
     <script type="text/javascript" src="js/routes.js"></script>
 
     <script type="text/javascript" src="js/services.js"></script>
+
+    <!-- Header component -->
+    <script type="text/javascript" src="components/header/header.controller.js"></script>
+    <script type="text/javascript" src="components/header/header.directive.js"></script>
 
   </body>
 </html>
