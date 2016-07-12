@@ -68,8 +68,10 @@ header {
   margin: 20vh 0 15vh 0; }
   .hero img {
     width: 100%; }
-  .hero .campaign {
-    margin-top: 100px; }
+  .hero .campaign-link h1 {
+    color: black;
+    font-size: 3.5rem;
+    font-weight: bold; }
 
 .posts img {
   width: 100%; }
@@ -93,3 +95,25 @@ header {
 
 .container {
   z-index: 0; }
+
+html {
+  position: relative;
+  min-height: 100%; }
+
+body {
+  margin: 0 0 100px; }
+
+footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 100px;
+  width: 100%;
+  background-color: black;
+  text-align: center; }
+  footer a {
+    color: white;
+    padding: 0 15px;
+    position: relative;
+    top: 30px;
+    font-size: 2rem; }
