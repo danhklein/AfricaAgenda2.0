@@ -11,11 +11,12 @@
   function appConfig($routeProvider) {
     $routeProvider
       .when('/', {
-        template: '<mainnav></mainnav>'
+        template: '<landing></landing>'
       })
-        .when('/singlePost', {
+      .when('/singlePost', {
           template: '<single-post></single-post>'
-        })
+      })
+
       .otherwise({redirectTo: '/'});
   }
 
