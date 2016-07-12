@@ -68,8 +68,10 @@ header {
   margin: 20vh 0 15vh 0; }
   .hero img {
     width: 100%; }
-  .hero .campaign {
-    margin-top: 100px; }
+  .hero .campaign-link h1 {
+    color: black;
+    font-size: 3.5rem;
+    font-weight: bold; }
 
 .posts img {
   width: 100%; }
