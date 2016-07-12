@@ -10,7 +10,7 @@
 
   function LandingCtrl() {
     var vm = this;
-    vm.posts = ["meow", "meow", "meow", "meow"];
+
     // vm.posts = [
     //   {
     //     title: 'Man in Black',

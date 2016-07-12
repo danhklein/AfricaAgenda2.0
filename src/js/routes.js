@@ -16,6 +16,9 @@
       .when('/singlePost', {
           template: '<single-post></single-post>'
       })
+      .when('/about',{
+        template: '<about></about>'
+      })
 
       .otherwise({redirectTo: '/'});
   }
