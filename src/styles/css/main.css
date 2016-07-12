@@ -28,12 +28,27 @@ header {
     header nav .no-hover-effect:hover {
       text-decoration: none; }
 
+.search {
+  position: absolute;
+  float: left;
+  margin: 10px 0 0 30px; }
+
+.header-media {
+  float: right;
+  margin-right: 30px;
+  font-size: 3rem; }
+  .header-media i {
+    padding: 0 10px; }
+    .header-media i:hover {
+      cursor: pointer; }
+
 .large-menu {
   position: absolute;
   height: 100vh;
   width: 100%;
   background-color: black;
-  color: white; }
+  color: white;
+  z-index: 10000; }
   .large-menu a {
     color: white;
     text-decoration: none;
@@ -45,20 +60,34 @@ header {
     margin-top: 10vh; }
 
 .hero {
-  border-left: 1px solid black;
-  border-right: 1px solid black;
-  width: 100%; }
+  border-left: 1px solid #D3D3D3;
+  border-right: 1px solid #D3D3D3;
+  width: 100%;
+  margin: 20vh 0 15vh 0; }
   .hero img {
     width: 100%; }
+  .hero .campaign {
+    margin-top: 100px; }
 
 .posts img {
   width: 100%; }
 
 .posts .article-info {
   width: 100%;
-  border-top: 1px solid black;
-  border-right: 1px solid black;
-  border-left: 1px solid black;
-  border-bottom: 1px solid black;
   margin-top: 0;
   padding-top: 0; }
+
+.posts .ind-post {
+  border: 1px solid #696969;
+  margin-bottom: 10vh; }
+  .posts .ind-post h2 {
+    font-size: 2rem;
+    font-weight: bold; }
+  .posts .ind-post h2, .posts .ind-post p {
+    padding: 0 10px; }
+  .posts .ind-post:hover {
+    opacity: .7;
+    cursor: pointer; }
+
+.container {
+  z-index: 0; }

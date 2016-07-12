@@ -21,6 +21,7 @@ a:hover {
 }
 
 #main #content {
+    margin-top: 10vh;
     width: 60%; float: left; padding: 35px 30px 60px 30px;
 }
 #main #content  h2 {

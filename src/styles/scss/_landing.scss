@@ -1,9 +1,13 @@
 .hero {
-  border-left: 1px solid black;
-  border-right: 1px solid black;
+  border-left: 1px solid $light-grey;
+  border-right: 1px solid $light-grey;
   width: 100%;
+  margin: 20vh 0 15vh 0;
   img {
     width: 100%;
+  }
+  .campaign {
+    margin-top: 100px;
   }
 }
 
@@ -13,13 +17,24 @@
   }
   .article-info {
     width:100%;
-    border-top: 1px solid black;
-    border-right: 1px solid black;
-    border-left: 1px solid black;
-    border-bottom: 1px solid black;
     margin-top: 0;
     padding-top: 0;
+  }
+  .ind-post {
+    border: 1px solid $dark-grey;
+    margin-bottom: 10vh;
+    h2 {
+      font-size: 2rem;
+      font-weight: bold;
+    }
+    h2, p {
+      padding: 0 10px;
+    }
 
+    &:hover {
+      opacity: .7;
+      cursor: pointer;
+    }
   }
 
 }
