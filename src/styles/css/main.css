@@ -93,6 +93,10 @@ header {
     opacity: .7;
     cursor: pointer; }
 
+.about-image {
+  margin-top: 20vh;
+  width: 100%; }
+
 .container {
   z-index: 0; }
 
