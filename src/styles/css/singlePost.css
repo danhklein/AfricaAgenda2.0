@@ -92,3 +92,8 @@ a:hover {
 #main #side #rePosts{
     text-align: right;
 }
+
+.social-share {
+    width: 400px;
+    margin-top: -20px;
+}
