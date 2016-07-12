@@ -19,7 +19,9 @@
       .when('/about',{
         template: '<about></about>'
       })
-
+      .when('/donate', {
+        template: '<donate></donate>'
+      })
       .otherwise({redirectTo: '/'});
   }
 
