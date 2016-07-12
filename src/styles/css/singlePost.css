@@ -63,6 +63,7 @@ a:hover {
 #main #side ul#pages li, #main #side ul#categories li {
     border: 1px solid #e9e9e9; padding: 1px;
     margin: 0 0 10px 0; text-align: center;
+    height: 76px; background: #e9e9e9;
 
 }
 #main #side ul#pages li a, #main #side ul#categories li a {
