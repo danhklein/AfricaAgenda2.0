@@ -1,7 +1,7 @@
 /* add custom styles */
-body, div, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, img, form, fieldset, input, textarea, blockquote {
-    margin: 0; padding: 0; border: 0;
-}
+/*body, div, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, img, form, fieldset, input, textarea, blockquote {*/
+    /*margin: 0; padding: 0; border: 0;*/
+/*}*/
 
 body {
     font: 14px/24px Helvetica, Sans-Serif; color: #7e7e7e;
@@ -11,6 +11,7 @@ body {
 a {
     color: #9f3a3a; text-decoration: none;
 }
+
 a:hover {
     color: #792323;
 }
@@ -22,7 +23,7 @@ a:hover {
 #main #content {
     width: 60%; float: left; padding: 35px 30px 60px 30px;
 }
-#main #content h2 {
+#main #content  h2 {
     font-size: 24px; font-weight: normal; text-transform: uppercase;
     margin: 0 0 15px 0;
 }
@@ -50,7 +51,8 @@ a:hover {
 
 
 #main #side {
-    width: 263px; float: left; padding: 15px 30px 15px 15px;
+    width: 30%; float: left; padding: 15px 30px 15px 15px;
+    margin-top: 1%;
     /*border-top: 15px solid white;*/
 }
 
@@ -67,8 +69,24 @@ a:hover {
     display: block; background: #e9e9e9; padding: 15px 20px 10px 20px;
     text-transform: uppercase;
 }
-#main #side img{
-    margin: 3% 0 0 3%;
-    width: 30%;
+
+#main #side  h2 {
+    font-size: 24px; font-weight: normal; text-transform: uppercase;
+    margin: 0 0 15px 0;
+}
+
+#main #side .thumbimg{
+    width: 100px; height: 70px;
+    overflow: hidden;
     float: left;
+    margin: 1% 0 0 1%;
+}
+
+#main #side .thumbimg img{
+    width: 100%;
+
+}
+
+#main #side #rePosts{
+    text-align: right;
 }
