@@ -42,12 +42,31 @@ header {
   }
 }
 
+.search {
+  position: absolute;
+  float: left;
+  margin: 10px 0 0 30px;
+}
+
+.header-media {
+  float: right;
+  margin-right: 30px;
+  font-size: 3rem;
+  i {
+    padding: 0 10px;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
+
 .large-menu {
   position: absolute;
   height: 100vh;
   width: 100%;
   background-color: black;
   color: white;
+  z-index: 10000;
   a {
     color: white;
     text-decoration: none;

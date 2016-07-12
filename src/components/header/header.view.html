@@ -1,6 +1,6 @@
 <header>
   <h1 class="org-name">AfricaTRUTH</h1>
-  <span ng-click="vm.toggle(vm.hidden)" class="expand-menu">Menu</span>
+  <span ng-click="vm.toggle()" class="expand-menu">Menu</span>
   <nav>
     <a class="no-hover-effect">Filter Articles By: </a>
     <a href="#">Country</a>
@@ -9,6 +9,15 @@
     <a href="#">Illinois</a>
   </nav>
 </header>
+<div class="search">
+  <input type="text" placeholder="Enter Search Term">
+  <input type="submit" value="Search">
+</div>
+<div class="header-media">
+    <i class="fa fa-twitter" aria-hidden="true"></i>
+    <i class="fa fa-facebook" aria-hidden="true"></i>
+    <i class="fa fa-instagram" aria-hidden="true"></i>
+  </div>
 <div ng-show="!vm.hidden" class="large-menu">
   <div class="nav-links">
     <a href="#">About</a>

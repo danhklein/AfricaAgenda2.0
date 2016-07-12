@@ -21,6 +21,7 @@ a:hover {
 }
 
 #main #content {
+    margin-top: 10vh;
     width: 60%; float: left; padding: 35px 30px 60px 30px;
 }
 #main #content  h2 {
@@ -90,4 +91,9 @@ a:hover {
 
 #main #side #rePosts{
     text-align: right;
+}
+
+.social-share {
+    width: 400px;
+    margin-top: -20px;
 }

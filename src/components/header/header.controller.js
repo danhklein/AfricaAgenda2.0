@@ -15,6 +15,7 @@
 
     vm.toggle = function() {
       vm.hidden = !vm.hidden;
+      console.log(vm.hidden);
     }
 
   }
