@@ -93,3 +93,25 @@ header {
 
 .container {
   z-index: 0; }
+
+html {
+  position: relative;
+  min-height: 100%; }
+
+body {
+  margin: 0 0 100px; }
+
+footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 100px;
+  width: 100%;
+  background-color: black;
+  text-align: center; }
+  footer a {
+    color: white;
+    padding: 0 15px;
+    position: relative;
+    top: 30px;
+    font-size: 2rem; }
