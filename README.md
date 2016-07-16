@@ -1,6 +1,8 @@
 # AfricaAgenda2.0
 
-Creating updated website for organization Africa Agenda as part of the Posner Poverty Hack. Built using AngularJS, Skeleton and SaSS. Team came in second.
+![Poverty Hack Logo](./src/img/povertyHack_mainLogo.png)
+
+Creating updated website for organization Africa Agenda as part of the [Posner Poverty Hack](http://povertyhack.posnercenter.org/). Built using AngularJS, Skeleton and SaSS. Team came in second.
 
 ## Mockups
 
